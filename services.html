@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <title>Trend Transport</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/styles/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="/js/public.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.2/css/all.css"
+          integrity="sha384-XxNLWSzCxOe/CFcHcAiJAZ7LarLmw3f4975gOO6QkxvULbGGNDoSOTzItGUG++Q+" crossorigin="anonymous">
+    <script type="text/javascript">
+        CSRF_TOKEN = '{{ csrf_token() }}';
+        APP_VERSION = "{{ env(' VERSION') }}";
+    </script>
+</head>
+
+<body class="fixed-header">
+<!--  @include('public-site.public-parts.header', ['defaultStyle' => 'background:#223e56']) -->
+<header style="background:#223e56">
+    <!--<header style="{{ @$defaultStyle  }}">-->
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <div class="head__left">
+                    <a href="/"><img src="/assets/images/Logo-TrendT-white.png" /></a>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="head__menu top-menu">
+                    <ul class="main__menu">
+                        <li class="main__li"><a class="main__link" href="/">Home</a>
+                        </li>
+                        <li class="main__li"><a class="main__link" href="/why-us">Why Us</a>
+                        </li>
+                        <li class="main__li"><a class="main__link" href="/services">Services</a>
+                        </li>
+                        <li class="main__li"><a class="main__link" href="/service-areas">Service Areas</a>
+                        </li>
+                        <li class="main__li"><a class="main__link" href="/tracking">Track Shipment</a>
+                        </li>
+                        <li class="main__li"><a class="main__link" href="/contact-us">Contact</a>
+                        </li>
+                        <li class="main__li"><a class="main__link" href="/login">Sign In</a>
+                        </li>
+                        <li class="main__li"><a class="main__link" href="tel:+18883612003">(888) 361-2003</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="hamburger"><span class="line line-1"></span><span class="line line-2"></span><span class="line line-3"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end header.blade.php -->
+
+<div class="page__content">
+    <!-- start of contact-us.blade.php -->
+    <!-- @section('content') -->
+
+
+    <div class="home-page">
+        <section class="whyus_top-section services_top-section">
+            <div class="whyus_banner-layer"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="banner-overlay">
+                            <div class="banner-overlay-inner"></div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="banner-content">
+                            <h1 data-aos="zoom-in" data-aos-duration="800">Our Services</h1>
+                            <h1 data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1500">and Technology</h1>
+                            <p data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1500">eCommerce Freight Modernized by Technology</p>
+<!--                            @include('public-site.public-parts.tracking-form')-->
+                            <form method="get" action="/tracking">
+                                <div class="search_box">
+                                    <input type="text" name="tracking_id" placeholder="Enter Tracking Number">
+                                    <button class="search_btn"><img src="/assets/images/search.svg"></button>
+                                </div>
+                            </form>
+                            <!--                            @include('public-site.public-parts.tracking-form')-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="whyus_top-text">
+            <div class="bg-light_overlay"></div>
+            <div data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1500" class="right_primary_triangle">
+                <img alt="Triangle" src="/assets/images/right_primary_triangle.png">
+            </div>
+            <div data-aos="fade-up" data-aos-delay="1800" data-aos-duration="1500" class="left_triangle">
+                <img alt="Triangle" src="/assets/images/left_dot.png">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1500" class="text-center">TrendTransport's services and technology are focussed on meeting the ever growing consumer expectations for ECommerce Freight</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="cross-arrow_section">
+            <section>
+                <div class="accurate_section">
+                    <div class="whyus_dark_overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div data-aos="zoom-in" data-aos-duration="1500" class="col-6">
+                                <div class="block_img">
+                                    <img alt="Accurate Data" src="/assets/images/accurate-2.png">
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="1500" class="col-6">
+                                <div class="accurate_block_content text-left sub-text">
+                                    <h3 class="heading">Accurate Data</h3>
+                                    <p>Reduce customer service requests and complaints through TrendTransport's real time tracking technology.  Every shipment is proactively monitored to ensure customers will always know when they can expect their delivery</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="tracking_section">
+                    <div class="container">
+                        <div class="row">
+                            <div data-aos="fade-up" data-aos-duration="1500" class="col-6">
+                                <div class="tracking_block_content text-left sub-text">
+                                    <h3 class="heading">Expedited Delivery</h3>
+                                    <p>We know the needs of your ECommerce customers.  That's why at TrendTransport we use team line haul drivers to ensure the fastest transit time available.</p>
+                                </div>
+                            </div>
+                            <div data-aos="zoom-in" data-aos-duration="1500" class="col-6">
+                                <div class="block_img">
+                                    <img alt="Expedited Delivery" src="/assets/images/expedited-delivery.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="photo-security_section">
+                    <div class="container">
+                        <div class="row">
+                            <div data-aos="zoom-in" data-aos-duration="1500" class="col-6">
+                                <div class="block_img">
+                                    <img alt="Photo Security" src="/assets/images/photo-security-2.png">
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="1500" class="col-6">
+                                <div class="photo-security_block_content text-left sub-text">
+                                    <h3 class="heading">Photo Security</h3>
+                                    <p>Residential deliveries have a 20%+ increased likelihood of a claim or delivery dispute.  Our drivers take pictures at time of delivery and automatically available to view on our site by customers, shippers, and brokers <br> TrendTransport's proprietary Picture Proof of Delivery technology can reduce claims and disputes by up to 50%.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="client_section whyus">
+                    <div class="client_overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-5">
+                                <h3 data-aos="slide-up" data-aos-duration="1500" class="heading">Why Our Clients Trust Us</h3>
+                            </div>
+                            <div class="col-7" data-aos="fade-up" data-aos-duration="1500">
+                                <div class="client_content">
+                                    <ul>
+                                        <li>
+                                            <div class="security_block_icon">
+                                                <img alt="Delivery" src="/assets/images/ic-actions-danger.png">
+                                            </div>
+                                            <h2>99.3%</h2>
+                                            <p>On-Time Delivery.</p>
+                                        </li>
+                                        <li>
+                                            <div class="security_block_icon">
+                                                <img alt="Delivery" src="/assets/images/ic-sport-golf.png">
+                                            </div>
+                                            <h2>50,000+</h2>
+                                            <p>On-Time Deliveries.</p>
+                                        </li>
+                                        <li>
+                                            <div class="security_block_icon">
+                                                <img alt="Delivery" src="/assets/images/ic-statistics-funnel.png">
+                                            </div>
+                                            <h2>1,000+</h2>
+                                            <p>Lift Gate Trucks</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section>
+            <div class="contactus_section">
+                <div data-aos="fade-up" data-aos-duration="1500" class="primary_triangle">
+                    <img alt="Triangle" src="/assets/images/Group_triangle.png">
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <p>TrendTransport is your solution for ECommerce freight. Contact us to find a broker.</p>
+                        </div>
+                        <div class="col-2 text-right">
+                            <a href="/contact-us" class="btn btn-primary">CONTACT US</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- @endsection -->
+
+    <footer>
+        <p class="copyright">© 2019 by Trend Transport. All rights reserved.</p>
+        <div class="footer_menu">
+            <ul>
+                <li><a href="/">Home</a>
+                </li>
+                <li><a href="/why-us">Why Us</a>
+                </li>
+                <li><a href="/services">Services</a>
+                </li>
+                <li><a href="/service-areas">Service Areas</a>
+                </li>
+                <li><a href="/tracking">Track Shipment</a>
+                </li>
+                <li><a href="/login">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="/assets/scripts/aos.js"></script>
+<script src="/assets/scripts/main.js"></script>
+</body>
+
+</html>
