@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-2">
                 <div class="head__left">
-                    <a href="/"><img src="/assets/images/Logo-TrendT-white.png" /></a>
+                    <a href="/"><img src="assets/images/Logo-TrendT-white.png" /></a>
                 </div>
             </div>
             <div class="col-10">

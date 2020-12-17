@@ -36,7 +36,7 @@
                         <div class="col-4">
                             <div class="security_block text-center">
                                 <div class="security_block_icon">
-                                    <a href="/services"><img alt="ACCURATE DATA" src="/assets/images/ic-statistics-funnel.png"></a>
+                                    <a href="/services"><img alt="ACCURATE DATA" src="assets/images/ic-statistics-funnel.png"></a>
                                 </div>
                                 <div class="security_block_content">
                                     <a href="/services"><h4 class="sub-heading">Transparency</h4></a>
@@ -47,7 +47,7 @@
                         <div class="col-4">
                             <div class="security_block middle text-center">
                                 <div class="security_block_icon">
-                                    <a href="/services"><img alt="Expedited Transit" src="/assets/images/ic-sport-golf.png"></a>
+                                    <a href="/services"><img alt="Expedited Transit" src="assets/images/ic-sport-golf.png"></a>
                                 </div>
                                 <div class="security_block_content">
                                     <a href="/services"><h4 class="sub-heading">Expedited Transit</h4></a>
@@ -58,7 +58,7 @@
                         <div class="col-4">
                             <div class="security_block text-center">
                                 <div class="security_block_icon">
-                                    <a href="/services"><img alt="PHOTO SECURITY" src="/assets/images/ic-actions-danger.png"></a>
+                                    <a href="/services"><img alt="PHOTO SECURITY" src="assets/images/ic-actions-danger.png"></a>
                                 </div>
                                 <div class="security_block_content">
                                     <a href="/services"><h4 class="sub-heading">ACCURATE DATA</h4></a>
@@ -74,19 +74,19 @@
             <div class="learnmore_section">
                 <div class="cross_overlay"></div>
                 <div data-aos="fade-up" data-aos-duration="1500" class="left_triangle">
-                    <img alt="Triangle" src="/assets/images/left_dot.png">
+                    <img alt="Triangle" src="assets/images/left_dot.png">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1500" class="right_triangle">
-                    <img alt="Triangle" src="/assets/images/right_dot.png">
+                    <img alt="Triangle" src="assets/images/right_dot.png">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1500" class="dark_triangle">
-                    <img alt="Triangle" src="/assets/images/dark_triangle.png">
+                    <img alt="Triangle" src="assets/images/dark_triangle.png">
                 </div>
                 <div class="container">
                     <div class="row">
                         <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1500" class="col-6">
                             <div class="learnmore_img">
-                                <img alt="Truck" src="/assets/images/truck.png">
+                                <img alt="Truck" src="assets/images/truck.png">
                             </div>
                         </div>
                         <div data-aos="slide-up" data-aos-delay="500" data-aos-duration="1500" class="col-6">
@@ -120,7 +120,7 @@
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1500" class="col-6">
                             <div class="whylove_img">
-                                <img alt="Home-Delivery-man" src="/assets/images/why-youll-love-us-2.png">
+                                <img alt="Home-Delivery-man" src="assets/images/why-youll-love-us-2.png">
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                         <div  class="col-7">
                             <div class="client_content">
                                 <div class="arrow_bg">
-                                    <img alt="Arrow" src="/assets/images/arrows.png">
+                                    <img alt="Arrow" src="assets/images/arrows.png">
                                 </div>
                                 <ul>
                                     <li>
@@ -163,7 +163,7 @@
         <section>
             <div class="contactus_section">
                 <div data-aos="fade-up" data-aos-duration="1500" class="primary_triangle">
-                    <img alt="Triangle" src="/assets/images/Group_triangle.png">
+                    <img alt="Triangle" src="assets/images/Group_triangle.png">
                 </div>
                 <div data-aos="slide-up" data-aos-duration="1500" class="container">
                     <div class="row">

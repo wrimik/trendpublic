@@ -24,10 +24,10 @@
         <section class="whyus_top-text">
             <div class="bg-light_overlay"></div>
             <div data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1500" class="right_primary_triangle">
-                <img alt="Triangle" src="/assets/images/right_primary_triangle.png">
+                <img alt="Triangle" src="assets/images/right_primary_triangle.png">
             </div>
             <div data-aos="fade-up" data-aos-delay="1800" data-aos-duration="1500" class="left_triangle">
-                <img alt="Triangle" src="/assets/images/left_dot.png">
+                <img alt="Triangle" src="assets/images/left_dot.png">
             </div>
             <div class="container">
                 <div class="row">
@@ -45,7 +45,7 @@
                         <div class="row">
                             <div data-aos="zoom-in" data-aos-duration="1500" class="col-6">
                                 <div class="block_img">
-                                    <img alt="Accurate Data" src="/assets/images/accurate-2.png">
+                                    <img alt="Accurate Data" src="assets/images/accurate-2.png">
                                 </div>
                             </div>
                             <div data-aos="fade-up" data-aos-duration="1500" class="col-6">
@@ -70,7 +70,7 @@
                             </div>
                             <div data-aos="zoom-in" data-aos-duration="1500" class="col-6">
                                 <div class="block_img">
-                                    <img alt="Expedited Delivery" src="/assets/images/expedited-delivery.png">
+                                    <img alt="Expedited Delivery" src="assets/images/expedited-delivery.png">
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                         <div class="row">
                             <div data-aos="zoom-in" data-aos-duration="1500" class="col-6">
                                 <div class="block_img">
-                                    <img alt="Photo Security" src="/assets/images/photo-security-2.png">
+                                    <img alt="Photo Security" src="assets/images/photo-security-2.png">
                                 </div>
                             </div>
                             <div data-aos="fade-up" data-aos-duration="1500" class="col-6">
@@ -109,21 +109,21 @@
                                     <ul>
                                         <li>
                                             <div class="security_block_icon">
-                                                <img alt="Delivery" src="/assets/images/ic-actions-danger.png">
+                                                <img alt="Delivery" src="assets/images/ic-actions-danger.png">
                                             </div>
                                             <h2>99.3%</h2>
                                             <p>On-Time Delivery.</p>
                                         </li>
                                         <li>
                                             <div class="security_block_icon">
-                                                <img alt="Delivery" src="/assets/images/ic-sport-golf.png">
+                                                <img alt="Delivery" src="assets/images/ic-sport-golf.png">
                                             </div>
                                             <h2>50,000+</h2>
                                             <p>On-Time Deliveries.</p>
                                         </li>
                                         <li>
                                             <div class="security_block_icon">
-                                                <img alt="Delivery" src="/assets/images/ic-statistics-funnel.png">
+                                                <img alt="Delivery" src="assets/images/ic-statistics-funnel.png">
                                             </div>
                                             <h2>1,000+</h2>
                                             <p>Lift Gate Trucks</p>
@@ -139,7 +139,7 @@
         <section>
             <div class="contactus_section">
                 <div data-aos="fade-up" data-aos-duration="1500" class="primary_triangle">
-                    <img alt="Triangle" src="/assets/images/Group_triangle.png">
+                    <img alt="Triangle" src="assets/images/Group_triangle.png">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1500" class="container">
                     <div class="row">

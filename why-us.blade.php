@@ -3,7 +3,7 @@
     <div class="home-page">
         <section class="mission_top-section">
             <div data-aos="fade-up" data-aos-duration="1500" class="primary_triangle">
-                <img alt="Triangle" src="/assets/images/Group_triangle.png">
+                <img alt="Triangle" src="assets/images/Group_triangle.png">
             </div>
             <div class="container">
                 <div class="row">
@@ -34,7 +34,7 @@
                         </div>
                         <div class="col-6">
                             <div class="why_weare_img">
-                                <img alt="Who We Are" src="/assets/images/who_weare.png">
+                                <img alt="Who We Are" src="assets/images/who_weare.png">
                             </div>
                         </div>
                     </div>
@@ -54,14 +54,14 @@
                                 <ul>
                                     <li data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">
 											<span class="security_block_icon">
-												<a href="/services"><img alt="eCommerce" src="/assets/images/ic-statistics-funnel.png"></a>
+												<a href="/services"><img alt="eCommerce" src="assets/images/ic-statistics-funnel.png"></a>
 											</span>
                                         <p>Every business is expected to match the service of billion dollar companies like Walmart and Amazon</p>
                                     </li>
-                                    <li data-aos="fade-up" data-aos-delay="800" data-aos-duration="1500"><span class="security_block_icon"><a href="/services"><img alt="eCommerce" src="/assets/images/ic-statistics-funnel.png"></a></span>
+                                    <li data-aos="fade-up" data-aos-delay="800" data-aos-duration="1500"><span class="security_block_icon"><a href="/services"><img alt="eCommerce" src="assets/images/ic-statistics-funnel.png"></a></span>
                                         <p>Traditional carriers can't handle today’s freight in a manner that meets the high expectations of consumers and shippers.</p>
                                     </li>
-                                    <li data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1500"><span class="security_block_icon"><a href="/services"><img alt="eCommerce" src="/assets/images/ic-statistics-funnel.png"></a></span>
+                                    <li data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1500"><span class="security_block_icon"><a href="/services"><img alt="eCommerce" src="assets/images/ic-statistics-funnel.png"></a></span>
                                         <p>As a result, traditional carriers have been implementing double digit price increases in order to provide service.</p>
                                     </li>
                                 </ul>
@@ -75,7 +75,7 @@
             <div class="our-solution_section">
                 <div class="our-solution_overlay"></div>
                 <div data-aos="fade-up" data-aos-duration="1500" class="dark_triangle">
-                    <img alt="Triangle" src="/assets/images/blue-triangles.png">
+                    <img alt="Triangle" src="assets/images/blue-triangles.png">
                 </div>
                 <div class="container">
                     <h3 data-aos="fade-up" data-aos-duration="1500" class="heading">The Trend Advantage</h3>
@@ -96,7 +96,7 @@
         <section>
             <div class="contactus_section">
                 <div data-aos="fade-up" data-aos-duration="1500" class="primary_triangle">
-                    <img alt="Triangle" src="/assets/images/Group_triangle.png">
+                    <img alt="Triangle" src="assets/images/Group_triangle.png">
                 </div>
                 <div class="container" data-aos="slide-up" data-aos-duration="1500" >
                     <div class="row">
